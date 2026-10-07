@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f1ef;
+  --foreground: #053534;
+
+  --dusty-rose: #ccb7ba;
+  --deep-teal: #053534;
+  --burnt-orange: #9c5223;
+  --olive: #7b7c00;
+
+  --card: #ffffff;
+  --muted-text: #536260;
+  --border: #d8d0cc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
